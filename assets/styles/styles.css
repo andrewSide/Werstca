@@ -1,0 +1,20 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./baner.css");
+
+:root {
+  --main-color: #b88e2f;
+  --secondary-color: #fff3e3;
+  --main-tipography-color: #000;
+  --secondary-tipography-color: #666;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+.main {
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+}

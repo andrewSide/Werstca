@@ -1,0 +1,70 @@
+.banner-container {
+  background-image: url("../images/banner.jpg");
+  height: 710px;
+}
+
+.banner-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.banner-content {
+  background-image: url("../images/Rectangle77.jpg");
+  width: 643px;
+  height: 443px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.title-content {
+  color: var(--main-tipography-color);
+  width: 123px;
+  height: 24px;
+  font-family: "Poppins", serif;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 50px;
+  margin-left: 26px;
+}
+
+.main-title {
+  width: 559px;
+  height: 127px;
+  /* font-family: "Poppins", serif; */
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  margin-left: 24px;
+  color: var(--main-color);
+}
+
+.title-description {
+  width: 546px;
+  height: 52px;
+  font-size: 18px;
+  font-family: "Poppins", serif;
+  color: #333;
+  line-height: 24px;
+  font-weight: 500;
+  margin-left: 26px;
+}
+
+.main-button {
+  width: 222px;
+  height: 74px;
+  background-color: var(--main-color);
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  border: var(--main-color);
+  margin-left: 26px;
+  margin-top: 50px;
+  cursor: pointer;
+}
