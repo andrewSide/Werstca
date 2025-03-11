@@ -1,5 +1,5 @@
 .banner-container {
-  background-image: url("../images/banner.jpg");
+  background-image: url("../assets/images/banner.jpg");
   height: 710px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .banner-content {
-  background-image: url("../images/Rectangle77.jpg");
+  background-image: url("../assets/images/Rectangle77.jpg");
   width: 643px;
   height: 443px;
   border-radius: 10px;
