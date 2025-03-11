@@ -1,0 +1,38 @@
+.ranges-container {
+    max-width: 1183px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.ranges-description {
+    font-size: 20px;
+    color: var(--secondary-typography-color);
+    margin-top: 10px;
+}
+
+.ranges-wrapper {
+    text-align: center;
+    padding: 48px 0;
+}
+
+.range-items-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.range-item div {
+    background-position: center;
+    width: 380px;
+    height: 480px;
+    border-radius: 10px;
+}
+
+.range-item:nth-child(1) div {
+    background-image: url('../assets/images/range-1.jpg');
+}
+.range-item:nth-child(2) div {
+    background-image: url('../assets/images/range-2.jpg');
+}
+.range-item:nth-child(3) div {
+    background-image: url('../assets/images/range-3.jpg');
+}

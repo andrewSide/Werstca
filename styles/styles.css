@@ -1,12 +1,13 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./baner.css");
+@import url("./ranges.css");
 
 :root {
   --main-color: #b88e2f;
   --secondary-color: #fff3e3;
-  --main-tipography-color: #000;
-  --secondary-tipography-color: #666;
+  --main-typography-color: #000;
+  --secondary-typography-color: #666;
 }
 
 body {
@@ -17,4 +18,10 @@ body {
   position: relative;
   overflow-x: hidden;
   min-height: 100vh;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 32px;
+  color: var(--main-typography-color);
 }
